@@ -1,2 +1,2 @@
-# PIIS-EVT-labs.github.io
+# PIIS-EVT-labs
 Самусевич Антон Георгиевич | 110901
