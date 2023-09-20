@@ -1,11 +1,13 @@
 name {
     font-size: 20px;
+    font-weight: 800;
 }
 
 a {
     font-size: 18px;
+    outline: none;
 }
 
 body {
-    background: linear-gradient(to right, yellow, orange);
+    background: linear-gradient(to right,orange, yellow, green);
 }
