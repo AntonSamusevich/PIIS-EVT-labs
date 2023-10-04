@@ -87,16 +87,24 @@ figure {
 figcaption {
     font-style: italic;
     font-size: 16px;
+    text-align: start;
+    margin-left: -40px;
 }
 
 .movie-image {
-    width: 460px;
-    height: 300px;
-    margin-left: 0px;
+    display: flex; 
+    justify-content: flex-start; 
+    margin-left: -40px;
+}
+
+#photo2, #photo3, #photo4 {
+    vertical-align: top; 
+    height: 310px; 
+    width: 430;
     margin-right: 0;
-    background-color: #fff;
-    padding: 3px;
-    border-radius: 3;
+    background-color: #6b5f5f;
+    padding: 4px;
+    border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
