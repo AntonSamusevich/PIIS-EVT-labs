@@ -20,13 +20,7 @@ footer {
     font-size: 18px;
     z-index: 1000; 
 }
-
-img {
-  position: fixed;
-  bottom: 75px; 
-  right: 400px;
-}
-  
+ 
 .container {
     display: flex;
 }
