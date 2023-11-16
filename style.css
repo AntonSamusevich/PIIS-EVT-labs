@@ -24,14 +24,4 @@ footer {
 .container {
     display: flex;
 }
-
-.right-div {
-    text-align: right; 
-    width: 100%; 
-    margin: 0; 
-}
-
-
-.left-div, .right-div {
-    width: 70%;
-}
+ 
