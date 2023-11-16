@@ -1,16 +1,11 @@
-name {
-    font-size: 22px;
-    font-weight: 800;
-}
-
 a {
     font-size: 20px;
     outline: none;
-    color:#0052D4
+    color:#0052D4;
 }
 
 body {
-    background: linear-gradient(to right, #CC95C0,#DBD4B4,#7AA1D2);
+    background: linear-gradient(to right, #CC95C0,#DBD4B4,rgb(122, 210, 153));
 }
 
 footer {
@@ -24,4 +19,25 @@ footer {
     color: #fff;
     font-size: 18px;
     z-index: 1000; 
+}
+
+img {
+  position: fixed;
+  bottom: 75px; 
+  right: 400px;
+}
+  
+.container {
+    display: flex;
+}
+
+.right-div {
+    text-align: right; 
+    width: 100%; 
+    margin: 0; 
+}
+
+
+.left-div, .right-div {
+    width: 70%;
 }
