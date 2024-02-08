@@ -1,5 +1,10 @@
 h1 {
     font-weight: 200;
+    font-family: 'Myfont-Regular', sans-serif;
+}
+
+h2 {
+    font-family: 'Myfont-Regular', sans-serif;
 }
 
 img {
@@ -58,7 +63,12 @@ a {
     src: url('fonts/pobeda-regular1.ttf') format('truetype');
 }
   
-  @font-face {
+@font-face {
     font-family: 'BeerMoney12';
     src: url('fonts/beer-money12.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Myfont-Regular';
+    src: url('fonts/Myfont-Regular.ttf') format('truetype');
 }
