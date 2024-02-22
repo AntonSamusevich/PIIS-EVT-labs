@@ -19,6 +19,7 @@ h1 {
 }
 
 article {
+  flex: 1;
   padding: 10px;
   margin: 10px;
   background: rgba(16, 233, 215, 0.178);
@@ -35,7 +36,7 @@ article {
   display: flex;
   flex-direction: column-reverse;
   flex-wrap: wrap;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 .container3 {
@@ -43,6 +44,7 @@ article {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-start;
+  flex: 1; 
 }
 
 .container4 {
@@ -50,31 +52,17 @@ article {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-start;
+  flex: 1;
 }
 
 .container5 {
   display: flex;
   flex-direction: row-reverse;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  flex: 1; 
 }
 
 .article1 {
-  height: 140px;
-  width: 464px;
-}
-
-.article2 {
-  height: 140px;
-  width: 464px;
-}
-
-.article3 {
-  height: 240px;
-  width: 464px;
-}
-
-.flexbox {
-  width: 1512px;
-  margin: auto 0;
+  height: 250px;
 }
