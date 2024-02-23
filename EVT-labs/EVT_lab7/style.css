@@ -18,6 +18,10 @@ h1 {
   margin: 0;
 }
 
+.article1 {
+  height: 250px;
+}
+
 article {
   flex: 1;
   padding: 10px;
@@ -61,8 +65,4 @@ article {
   flex-wrap: nowrap;
   align-items: stretch;
   flex: 1; 
-}
-
-.article1 {
-  height: 250px;
 }
