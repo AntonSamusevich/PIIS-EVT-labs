@@ -18,6 +18,10 @@ h1 {
   margin: 0;
 }
 
+.article1 {
+  height: 250px;
+}
+
 article {
   flex: 1;
   padding: 10px;
@@ -25,44 +29,32 @@ article {
   background: rgba(16, 233, 215, 0.178);
 }
 
-.article1 {
-  height: 250px;
-}
-
 .container1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-start;
 }
 
 .container2 {
   display: flex;
   flex-direction: column-reverse;
   flex-wrap: wrap;
-  align-items: flex-start;
 }
 
 .container3 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-start;
-  flex: 1; 
 }
 
 .container4 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-start;
-  flex: 1;
 }
 
 .container5 {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: nowrap;
-  align-items: stretch;
-  flex: 1; 
 }
