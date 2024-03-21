@@ -6,6 +6,9 @@ a {
 
 body {
     background: linear-gradient(to right, #CC95C0,#DBD4B4,rgb(122, 210, 153));
+    background-image: url('gif/background.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
 }
 
 footer {
@@ -20,7 +23,177 @@ footer {
     font-size: 18px;
     z-index: 1000; 
 }
- 
+
+.gif1 {
+  position: fixed; 
+  width: 130px; 
+  bottom: 73px; 
+  animation: gif1anim 5s infinite;
+}
+
+.gif2 {
+  position: fixed;
+  width: 65px; 
+  bottom: 100px; 
+  left: 42.5%;
+  animation: gif2anim 5s infinite;
+}
+
+.gif3 {
+  position: fixed;
+  width: 65px; 
+  bottom: 100px; 
+  left: 50%;
+  animation: gif3anim 5s infinite;
+}
+
+.gif4 {
+  position: fixed;
+  width: 65px; 
+  bottom: 100px; 
+  left: 57.5%;
+  animation: gif4anim 5s infinite;
+}
+
+.gif5 {
+  position: fixed;
+  width: 150px; 
+  bottom: 400px; 
+  left: 45%;
+  animation: gif5anim 20s infinite;
+}
+
+@keyframes gif1anim {
+  0% {
+    left: 0;
+    transform: scaleX(1);
+    animation-timing-function: ease-out;
+  }
+  50% {
+    left: calc(100% - 130px);
+    transform: scaleX(1);
+    animation-timing-function: ease-out;
+  }
+  51% {
+    transform: scaleX(-1);
+  }
+  100% {
+    left: 0;
+    transform: scaleX(-1);
+  }
+}
+
+@keyframes gif2anim {
+  0% {
+    bottom: 100px;
+    opacity: 1;
+  }
+  15% {
+    bottom: 100px;
+    opacity: 1;
+  }
+  17% {
+    bottom: 180px;
+    opacity: 0.5;
+  }
+  50% {
+    bottom: 100px;
+    opacity: 0;
+  }
+  69% {
+    bottom: 100px;
+    opacity: 1;
+  }
+  71% {
+    bottom: 180px;
+    opacity: 0.5;
+  }
+  100% {
+    bottom: 100px;
+    opacity: 0;
+  }
+}
+
+@keyframes gif3anim {
+  0% {
+    bottom: 100px;
+    opacity: 1;
+  }
+  17% {
+    bottom: 100px;
+    opacity: 1;
+  }
+  19% {
+    bottom: 180px;
+    opacity: 0.5;
+  }
+  50% {
+    bottom: 100px;
+    opacity: 0;
+  }
+  67% {
+    bottom: 100px;
+    opacity: 1;
+  }
+  69% {
+    bottom: 180px;
+    opacity: 0.5;
+  }
+  100% {
+    bottom: 100px;
+    opacity: 0;
+  }
+}
+
+@keyframes gif4anim {
+  0% {
+    bottom: 100px;
+    opacity: 1;
+  }
+  21% {
+    bottom: 100px;
+    opacity: 1;
+  }
+  23% {
+    bottom: 180px;
+    opacity: 0.5;
+  }
+  50% {
+    bottom: 100px;
+    opacity: 0;
+  }
+  65% {
+    bottom: 100px;
+    opacity: 1;
+  }
+  67% {
+    bottom: 180px;
+    opacity: 0.5;
+  }
+  100% {
+    bottom: 100px;
+    opacity: 0;
+  }
+}
+
+@keyframes gif5anim {
+  0% {
+    transform: rotate(0deg) translate(-200px, 0) rotate(0deg);
+    left: 12.5%;
+  }
+  50% { 
+    transform: rotate(90deg) translate(0, -200px) rotate(-90deg);
+    left: 75%;
+  }
+  100% {
+    transform: rotate(180deg) translate(200px, 0) rotate(-180deg);
+    left: 12.5%;
+  }
+}
+
 .container {
-    display: flex;
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  justify-content:space-between;
 }
