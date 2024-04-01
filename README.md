@@ -2,7 +2,7 @@
 *[Лабораторные работы](https://antonsamusevich.github.io/PIIS-EVT-labs.github.io/)*
 
 ### Контактная информация
-1. **Email:** 'AntonSamusevich03@gmail.com'
+1. **Email:** AntonSamusevich03@gmail.com
 2. **Телефон:** +375447886270
 3. **GitHub:** *[AntonSamusevich](https://github.com/AntonSamusevich)*
 
@@ -10,7 +10,7 @@
 *Я целеустремленный и ответственный разработчик с опытом работы в веб-разработке и базах данных. Мои сильные стороны включают в себя умение быстро учиться, тщательное тестирование кода и эффективное решение проблем. Я заинтересован в поиске новых вызовов и развитии профессиональных навыков.*
 
 ### Навыки
-![alt-текст][java] ![alt-текст][c] ![alt-текст][python] ![alt-текст][mysql] ![alt-текст][js] ![alt-текст][html] ![alt-текст][css] 
+![alt-текст][icons/java.png] ![alt-текст][icons/c.png] ![alt-текст][icons/python.png] ![alt-текст][icons/mysql.png] ![alt-текст][icons/js.png] ![alt-текст][icons/html.png] ![alt-текст][icons/css.png] 
 
 ### Опыт работы
 
