@@ -10,7 +10,7 @@
 *Я целеустремленный и ответственный разработчик с опытом работы в веб-разработке и базах данных. Мои сильные стороны включают в себя умение быстро учиться, тщательное тестирование кода и эффективное решение проблем. Я заинтересован в поиске новых вызовов и развитии профессиональных навыков.*
 
 ### Навыки
-![alt-текст][icons/java.png] ![alt-текст][icons/c.png] ![alt-текст][icons/python.png] ![alt-текст][icons/mysql.png] ![alt-текст][icons/js.png] ![alt-текст][icons/html.png] ![alt-текст][icons/css.png] 
+![Java][icons/java.png] ![C][icons/c.png] ![Python][icons/python.png] ![MySQL][icons/mysql.png] ![JavaScript][icons/js.png] ![HTML][icons/html.png] ![CSS][icons/css.png] 
 
 ### Опыт работы
 
