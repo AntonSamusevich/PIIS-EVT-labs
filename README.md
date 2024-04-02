@@ -22,29 +22,29 @@ int main()
 	srand(time(NULL));
 	setlocale(LC_ALL, "RUS");
 
-	int** arr1 = new int* [5]; //создание массива
+	int** arr = new int* [5]; //создание массива
 
 	//генерация матрицы
 	for (int i = 0; i < 5; i++)
 	{
-		arr1[i] = new int[7]; //создание массива столбцов
+		arr[i] = new int[7]; //создание массива столбцов
 	}
 	for (int i = 0; i < 5; i++)
 	{
 		for (int j = 0; j < 7; j++)
 		{
-			arr1[i][j] = rand() % 100;
+			arr[i][j] = rand() % 100;
 		}
 	}
 
 	//просмотр матрицы
-	cout << "Matrix A" << endl;
+	cout << "Matrix" << endl;
 	for (int i = 0; i < 5; i++)
 	{
 		cout << "|";
 		for (int j = 0; j < 7; j++)
 		{
-			cout << setw(3) << arr1[i][j] << setw(2);
+			cout << setw(3) << arr[i][j] << setw(2);
 		}
 		cout << "|" << endl;
 	}
@@ -53,9 +53,9 @@ int main()
 	//освобождение памяти
 	for (int i = 0; i < 5; i++)
 	{
-		delete[] arr1[i];
+		delete[] arr[i];
 	}
-	delete[] arr1;
+	delete[] arr;
 }
 ```
 
